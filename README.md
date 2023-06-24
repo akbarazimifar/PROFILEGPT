@@ -22,7 +22,7 @@ PROFILEGPT is a tool for analyzing profiles and hashtags on Twitter. The applica
 
 `OPENAI_API_KEY='sk-YOUR_API_KEY'`
 
-6. Run the application: `python app.py`
+6. Run the application: `python3 app.py`
 7. Access the application in your web browser at `http://localhost:5000`
 
 ## Usage
