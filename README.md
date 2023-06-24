@@ -20,7 +20,7 @@ OSINTGPT is a tool for analyzing profiles and hashtags on Twitter. The applicati
 3. Set up your OpenAI GPT API credentials by signing up for an API key on the [OpenAI website](https://openai.com/).
 5. Create a `.env` file in the root directory and add your API credentials in the following format:
 
-
+`OPENAI_API_KEY='sk-YOUR_API_KEY'`
 
 6. Run the application: `python app.py`
 7. Access the application in your web browser at `http://localhost:5000`
@@ -30,14 +30,9 @@ OSINTGPT is a tool for analyzing profiles and hashtags on Twitter. The applicati
 2. Click the "Search" button to retrieve and analyze the data.
 3. View the generated insights and reports on the app's user interface.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - [OpenAI](https://openai.com/) for providing the GPT API.
 - [Bootstrap](https://getbootstrap.com/) for the responsive design and UI components.
 - [snscrape](https://github.com/JustAnotherArchivist/snscrape) for the Twitter scraping library.
-- [WordCloud](https://github.com/amueller/word_cloud) for generating word clouds.
 
-## Contributing
-Contributions to [Your App Name] are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) for more information.
