@@ -8,7 +8,7 @@ import openai
 import re
 
 
-openai.api_key = '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'
+openai.api_key = 'sk-YOUR_OPENAI_API_KEY'
 max_tweets=50
 def check_hashtag(user_input):
    return bool(re.match(r'^#\w+', user_input))
