@@ -42,7 +42,6 @@ def generate_wordcloud(text):
     plt.axis('off')
     plt.show()
 
-# More code ...
 
 def main (): 
     parser = argparse.ArgumentParser(description='Scrape tweets and generate user profiles.')

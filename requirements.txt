@@ -1,0 +1,5 @@
+pip==23.1.2
+Flask==2.3.2
+snscrape==0.6.2.20230321.dev13+g786815d
+pandas==1.5.3
+pandas-bokeh==0.5.5
