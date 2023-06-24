@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-import snscraper  # replace this with the name of your Python file
+import snscraper
 
 app = Flask(__name__)
 

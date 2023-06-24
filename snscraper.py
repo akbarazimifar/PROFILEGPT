@@ -8,7 +8,7 @@ import openai
 import re
 
 
-openai.api_key = 'sk-INSERT_YOUR_API_KEY'
+openai.api_key = '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'
 max_tweets=50
 def check_hashtag(user_input):
    return bool(re.match(r'^#\w+', user_input))
@@ -35,7 +35,6 @@ def scrape_tweets_by_hashtag(hashtag):
     end_date = datetime.now()
     start_date = end_date - timedelta(days=30)
 
-    # Format dates in the YYYY-MM-DD format that TwitterSearchScraper requires
     start_date_str = start_date.strftime("%Y-%m-%d")
     end_date_str = end_date.strftime("%Y-%m-%d")
 
