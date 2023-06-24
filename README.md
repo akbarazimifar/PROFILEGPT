@@ -18,7 +18,7 @@ OSINTGPT is a tool for analyzing profiles and hashtags on Twitter. The applicati
 1. Clone the repository: `git clone `
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up your OpenAI GPT API credentials by signing up for an API key on the [OpenAI website](https://openai.com/).
-5. Create a `.env` file in the root directory and add your API credentials in the following format:
+5. replace your OPENAI API KEY in sncraper.py like : 
 
 `OPENAI_API_KEY='sk-YOUR_API_KEY'`
 
