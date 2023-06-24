@@ -35,4 +35,3 @@ OSINTGPT is a tool for analyzing profiles and hashtags on Twitter. The applicati
 - [OpenAI](https://openai.com/) for providing the GPT API.
 - [Bootstrap](https://getbootstrap.com/) for the responsive design and UI components.
 - [snscrape](https://github.com/JustAnotherArchivist/snscrape) for the Twitter scraping library.
-
